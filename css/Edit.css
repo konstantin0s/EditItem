@@ -1,17 +1,32 @@
 body {
-  font-family: "Verdana";
-  color: #666;
-  padding: 0 20%;
+    font-family: "helvetica neue";
+    color: #666;
+    padding: 0 20%;
 }
 
 li input {
-  display: none;
+    display: none;
 }
 
 li.edit span {
-  display: none;
+    display: none;
 }
 
 li.edit input {
-  display: initial;
+    display: initial;
+ padding: 2px;
+
+}
+
+ul li {
+  padding: 5px;
+  text-decoration:none;
+  color: blue;
+  font-size: 22px;
+}
+
+main {
+  width: 300px;
+  height: 150px;
+  background-color:grey;
 }
